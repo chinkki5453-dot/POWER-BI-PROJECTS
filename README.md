@@ -19,11 +19,21 @@ The final report is designed with a Z-pattern layout for optimal readability, fe
 *Ratings Treemap: A filtered view of the Top 5 Audience Ratings (TV-MA, TV-14, etc.), showing that Netflix heavily prioritizes mature adult audiences over kids' programming.
 
 🛠️ Technical Implementation
-*Data Cleaning (Power Query): * Fixed "column shifting" errors (e.g., removing misplaced director names from the Type category).
+
+*Data Cleaning (Power Query): 
+
+* Fixed "column shifting" errors (e.g., removing misplaced director names from the Type category).
+
 Handled null values in director, cast, and country columns.
+
 *DAX Measures: Created custom measures for Total Titles, Total Movies, and Total TV Shows to power dynamic KPI cards.
-*UI/UX Design: * Implemented a custom Netflix Brand Theme using Hex Codes: Red (#E50914) and Charcoal (#141414).
+
+*UI/UX Design: 
+    
+    * Implemented a custom Netflix Brand Theme using Hex Codes: Red (#E50914) and Charcoal (#141414).
+    
     *Utilized Top N Filters to reduce visual clutter in the Treemap.
+    
     *Integrated Interactive Slicers for Year Range and Content Type.
 
 💡 Strategic Conclusions
